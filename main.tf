@@ -3,7 +3,6 @@ terraform {
     snowflake = {
       source  = "chanzuckerberg/snowflake"
       version = "0.25.17"
-      region = "US East (Ohio)"
     }
   }
 
