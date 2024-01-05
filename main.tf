@@ -2,6 +2,7 @@ terraform {
   required_providers {
     snowflake = {
       version = "0.25.17"
+      source = registry.terraform.io/hashicorp/snowflake
     }
   }
 
